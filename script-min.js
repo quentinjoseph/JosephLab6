@@ -1,0 +1,1 @@
+function convertTemp(e,t){"c"===t||"C"===t?(tempCelsius=(e-32)/1.8,console.log(tempCelsius+" degrees Celsius")):"f"!==t&&"F"!==t||(tempFah=1.8*e+32,console.log(tempFah+" degrees Fahrenheit"))}var temp=prompt("input a temperature"),type=prompt("input the letter c or f to convert to Celsius or Fahrenheit"),tempFah,tempCelsius;convertTemp(temp,type);
